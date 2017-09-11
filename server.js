@@ -28,8 +28,8 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get("/mine", function (req, res) {
-File(path.join(__dirname, 'ui', 'mine.html'));
+app.get('/mine', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'mine.html'));
 });
 
 
